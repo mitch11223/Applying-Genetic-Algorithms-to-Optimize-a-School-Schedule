@@ -1,0 +1,23 @@
+number of conflicts = 0
+room usage = dict
+professor schedule = dict
+
+for each (course, room, timeslot) in chromosome:
+    if course number of students > room capacity:
+        number of conflicts += 2
+
+    for each possible hour of class: # (0 to course hours -1)
+        current slot = timeslot index + hour of class
+        if (room index, current slot) not in room usage:
+            room usage [(room index, current slot)] = 0 
+        add 1 to room usage [(room index, current slot)]
+        if room usage [(room index, current slot)] list is > 1 
+            number conflicts += 3
+        
+        if (course professor, current slot) not in professor schedule
+            professor schedule [(course professor, current slot)] = 0
+        professor schedule [(course professor, current slot)] += 1
+        if professor schedule [(course professor, current slot)] > 1
+            number of conflicts += 1
+
+return 1 / (1 + number of conflicts)
