@@ -35,3 +35,14 @@ This project applies genetic algorithms to solve the class scheduling problem, p
 
 - **Pseudocode.txt**:
   - Provided with the assignment release; not authored by the project contributor.
+
+## Future Enhancements
+- Optimization of the genetic algorithm parameters.
+- Integration with other scheduling or optimization problems.
+- Enhanced visualization of results for better analysis.
+
+## Contributions
+- Contributions are welcome. Please suggest improvements or extend the functionality.
+
+## Contact
+- For inquiries or collaboration, please contact [Your Contact Method].
