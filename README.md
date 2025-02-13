@@ -34,5 +34,5 @@ This project applies genetic algorithms to solve the class scheduling problem, p
   - A LaTeX report detailing the approach, methodology, and results of the class scheduling problem using genetic algorithms.
 
 - **Pseudocode.txt**:
-  - Provided with the assignment release; not authored by the project contributor.
+  - Provided with the assignment release; 
 
